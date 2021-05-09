@@ -1,2 +1,3 @@
 # Calculator-React
-run using `npm start`
+Install using `npm install`
+Run using `npm start`
