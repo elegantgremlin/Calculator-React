@@ -1,0 +1,59 @@
+.App {
+  display: grid;
+  grid-auto-rows: 100px;
+}
+input[type='text'] {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  font-size: 40px;
+  font-family: monospace;
+  border: solid 1px black;
+  margin: 0px;
+  text-align: right;
+}
+button {
+  background-color: gray;
+  font-size: 40px;
+}
+button.dark {
+  background-color: darkgray;
+}
+button.orange {
+  background-color: orange;
+}
+button.row1 {
+  grid-row-start: 1;
+}
+button.row2 {
+  grid-row-start: 2;
+}
+button.row3 {
+  grid-row-start: 3;
+}
+button.row4 {
+  grid-row-start: 4;
+}
+button.row5 {
+  grid-row-start: 5;
+}
+button.row6 {
+  grid-row-start: 6;
+}
+button.col1 {
+  grid-column-start: 1;
+}
+button.col2 {
+  grid-column-start: 2;
+}
+button.col3 {
+  grid-column-start: 3;
+}
+button.col4 {
+  grid-column-start: 4;
+}
+button.col12 {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
